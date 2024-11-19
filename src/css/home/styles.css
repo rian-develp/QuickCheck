@@ -1,0 +1,215 @@
+body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    background-color: white;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 4.4rem;
+    background-color: cadetblue;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    justify-content: space-between;
+}
+
+header h2 {
+    margin-left: 2.0rem;
+    color: whitesmoke; 
+    font-weight: bold;
+    font-size: 1.488rem;   
+    font-family: 'Roboto';
+    align-self: center;
+}
+
+header nav {
+    display: flex;
+    flex-direction: row;
+    margin-right: 2.0rem;
+}
+
+
+header nav h2 {
+    font-size: 1.488rem;
+    margin-left: 1.4rem;
+    margin-right: 1.4rem;
+}
+
+header nav a {
+    text-decoration: none;
+}
+
+header nav a :hover {
+    transition: 0.322s;
+    opacity: 0.744;
+}
+
+.img__container {
+    width: 100%;
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 8%;
+    background-color: rgb(233, 233, 233)
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.first__card_container {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 36vh;
+    height: 30vh;
+    z-index: 1;
+    margin-left: 10%;
+    margin-top: 50vh;
+}
+
+.second__card_container {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 36vh;
+    height: 30vh;
+    z-index: 1;
+    margin-left: 85vh;
+    margin-top: 0.855rem;
+}
+
+
+.third__card_container {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 36vh;
+    height: 30vh;
+    z-index: 1;
+    margin-left: 70%;
+    margin-top: 60vh;
+}
+
+.card__layout_benefits_title{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 5.2rem;
+    text-align: center;
+}
+
+.benefits_title {
+    color: white;
+    font-family: 'Roboto';
+    font-size: 1.444rem;
+    align-self: center;
+    transition: 0.8s;
+}
+
+.benefits {
+    color: white;
+    font-family: 'Roboto';
+    font-size: 1.088rem;
+    font-weight: bold;
+    margin-left: 0.777rem;
+    transition: 0.8s;
+}
+
+
+.second_section__layout {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+}
+
+.second_section__layout h1{
+    align-self: center;
+    color: black;
+    font-family: 'Roboto';
+    font-size: xx-large;
+    font-weight: bold;
+    margin-top: 4.1rem;
+}
+
+.second_section__list_container {
+    width: 100%;
+    height: auto;
+    margin-top: 2.1rem;
+    background-color: wheat;
+}
+
+.second_section__list_container ul{
+    display: flex;
+    height: auto;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-evenly;
+    overflow-x: auto;
+}
+
+.second_section__list_container li{
+    margin-left: 1.2rem;
+    margin-right: 2.4rem;
+    height: inherit;
+}
+
+
+.second_section__card_container {
+    display: flex;
+    flex-direction: column;
+    width: 50vh;
+    height: 53vh;
+    background-color: aqua;
+}
+
+.second_section__img {
+    object-fit: cover;
+    width: 100%;
+    height: 60%;
+}
+
+.second_section__card_title {
+    align-self: center;
+    color: whitesmoke;
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-family: 'Roboto';
+}
+
+.second_section__card_paragraphy {
+    align-self: center;
+    color: whitesmoke;
+    font-family: 'Roboto';
+    font-weight: bold;
+    margin-left: 1.2rem;
+}
+
+footer p {
+    font-family: 'Roboto';
+    font-size: large;
+    font-weight: bold;
+    color: white;
+}
+
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+	margin-top: 50px;
+}
+
+footer ul {
+    list-style-type: none;
+}

@@ -1,0 +1,106 @@
+body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    background-color: rgb(238, 238, 238);
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 4.4rem;
+    background-color: cadetblue;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    justify-content: space-between;
+}
+
+header h2 {
+    margin-left: 2.0rem;
+    color: whitesmoke; 
+    font-weight: bold;
+    font-size: 1.488rem;   
+    font-family: 'Roboto';
+    align-self: center;
+}
+
+header nav {
+    display: flex;
+    flex-direction: row;
+    margin-right: 2.0rem;
+}
+
+
+header nav h2 {
+    font-size: 1.488rem;
+    margin-left: 1.4rem;
+    margin-right: 1.4rem;
+}
+
+header nav a {
+    text-decoration: none;
+}
+
+header nav a :hover {
+    transition: 0.322s;
+    opacity: 0.744;
+}
+
+.about__title { 
+    color: black;
+    align-self: center;
+}
+
+.about__container_img {
+    width: 60%;
+    height: 55vh;
+    background-color:blue; 
+    align-self: center;
+}
+
+.logo{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.paragraphy {
+    font-size: 1.3rem;
+    font-family: 'Roboto';
+    font-weight: bold;
+    margin-left: 2.2rem;
+    margin-right: 2.8rem;
+}
+
+.squad_info__container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 44vh;
+    background-color: black;
+    margin-top: 9.8rem;
+}
+
+.squad_info__container ul{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+}
+
+.squad_info__card {
+    width: 40vh;
+    height: 38vh;
+    background-color: aqua;
+    margin-right: 4.4rem;
+}
+
+.squad_info__card img{
+    width: 90%;
+    height: 60%;
+    object-fit: contain;
+}
